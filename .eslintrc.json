@@ -3,5 +3,8 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error"
-  }
+  },
+  "settings": {
+    "import/ignore": ["contentLayerAdapter.js"],
+  },
 }
